@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kelveden</groupId>
-    <artifactId>testacular-maven-plugin</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <groupId>com.inadco</groupId>
+    <artifactId>karma-maven-plugin</artifactId>
+    <version>0.5.1</version>
     <packaging>maven-plugin</packaging>
 
-    <name>Testacular Maven Plugin</name>
-    <description>Maven plugin for running tests with Testacular.</description>
+    <name>Karma Maven Plugin</name>
+    <description>Maven plugin for running tests with Karma, adapted from the 0.5 version by author kelveden.</description>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -20,12 +20,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <url>https://github.com/kelveden/testacular-maven-plugin</url>
+    <url>https://github.com/kelveden/karma-maven-plugin</url>
 
     <scm>
-        <connection>scm:git:git@github.com:kelveden/testacular-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:kelveden/testacular-maven-plugin.git</developerConnection>
-        <url>git@github.com:kelveden/testacular-maven-plugin.git</url>
+        <connection>scm:git:git@github.com:kelveden/karma-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:kelveden/karma-maven-plugin.git</developerConnection>
+        <url>git@github.com:kelveden/karma-maven-plugin.git</url>
     </scm>
 
     <developers>
@@ -85,6 +85,7 @@
                     </execution>
                 </executions>
             </plugin>
+<!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -99,6 +100,7 @@
                     </execution>
                 </executions>
             </plugin>
+-->
             <plugin>
                 <groupId>com.mycila.maven-license-plugin</groupId>
                 <artifactId>maven-license-plugin</artifactId>
